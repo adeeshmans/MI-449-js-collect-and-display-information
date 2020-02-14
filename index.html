@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- 
+  Adeesh Shrestha
+  02/13/2019
+  JavaScript
+  Dating Profile Generator
+ -->
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>This is a title</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Wrap code blocks instead of overflowing */
+      pre > code {
+        white-space: pre-wrap;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Dating profile generator</h1>
+
+      <p class="tagline">
+        Create your own dating profile, that you fully own! Simply enter your
+        personal information below and the HTML for your profile will start
+        writing itself automatically.
+      </p>
+
+      <h2>Personal</h2>
+
+      <div class="row">
+        <div class="six columns">
+          <label>First name</label>
+          <input type="text" class="u-full-width" id="fname" />
+        </div>
+
+        <div class="six columns">
+          <label>Last name</label>
+          <input type="text" class="u-full-width" id="lname" />
+        </div>
+      </div>
+      <label>Briefly describe yourself</label>
+      <textarea class="u-full-width" id="discription"></textarea>
+
+      <h2>Contact</h2>
+
+      <div class="row">
+        <div class="six columns">
+          <label>Email</label>
+          <input type="email" class="u-full-width" id="email" />
+        </div>
+
+        <div class="six columns">
+          <label>Phone</label>
+          <input type="tel" class="u-full-width" id="phone" />
+        </div>
+      </div>
+    </div>
+    <hr />
+
+    <div class="container">
+      <div class="row">
+        <div class="six columns">
+          <h2>Preview</h2>
+
+          <p id="madlib1"></p>
+        </div>
+
+        <div class="six columns">
+          <h2>Generated HTML</h2>
+          <pre><code id="madlib2" >
+          </code></pre>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
