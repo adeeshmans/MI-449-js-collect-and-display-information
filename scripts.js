@@ -11,10 +11,10 @@ firstInput.addEventListener('input', function () {
   var fname = firstInput.value
   var lname = secondInput.value
 
-  madlibParagraph1.innerHTML = '<strong>' + fname + ' ' + lname + '</strong>';
+  madlibParagraph1.innerHTML = '<strong>' + fname + ' ' + lname + '</strong>'
 
   // shows the code and inputs
-  madlibParagraph2.textContent = '<strong>' + fname + ' ' + lname + '</strong>';
+  madlibParagraph2.textContent = '<strong>' + fname + ' ' + lname + '</strong>'
 })
 
 // LASTNAME
@@ -22,10 +22,10 @@ secondInput.addEventListener('input', function () {
   var fname = firstInput.value
   var lname = secondInput.value
 
-  madlibParagraph1.innerHTML = '<strong>' + fname + ' ' + lname + '</strong>';
+  madlibParagraph1.innerHTML = '<strong>' + fname + ' ' + lname + '</strong>'
 
   // shows the code and inputs
-  madlibParagraph2.textContent = '<strong>' + fname + ' ' + lname + '</strong>';
+  madlibParagraph2.textContent = '<strong>' + fname + ' ' + lname + '</strong>'
 })
 
 // brief
@@ -41,7 +41,7 @@ discribeInput.addEventListener('input', function () {
     lname +
     ' ' +
     discription +
-    '</strong> is <em>Hella Charming</em>!!!';
+    '</strong> is <em>Hella Charming</em>!!!'
 
   // shows the code and inputs
   madlibParagraph2.textContent =
@@ -51,7 +51,7 @@ discribeInput.addEventListener('input', function () {
     lname +
     ' ' +
     discription +
-    '</strong> is <em>Hella Charming</em>!!!';
+    '</strong> is <em>Hella Charming</em>!!!'
 })
 
 // Contact
@@ -71,7 +71,7 @@ emailInput.addEventListener('input', function () {
     '</strong> is <em>Hella Charming</em>!!!' +
     ' <strong>Contact info </strong><strong>' +
     email +
-    ' ';
+    ' '
 
   // shows the code and inputs
   madlibParagraph2.textContent =
@@ -84,7 +84,7 @@ emailInput.addEventListener('input', function () {
     '</strong> is <em>Hella Charming</em>!!!' +
     ' <strong>Contact info </strong><strong>' +
     email +
-    ' ';
+    ' '
 })
 
 phoneInput.addEventListener('input', function () {
@@ -106,7 +106,7 @@ phoneInput.addEventListener('input', function () {
     email +
     ' ' +
     phone +
-    '</strong>';
+    '</strong>'
 
   // shows the code and inputs
   madlibParagraph2.textContent =
@@ -121,5 +121,5 @@ phoneInput.addEventListener('input', function () {
     email +
     ' ' +
     phone +
-    '</strong>';
+    '</strong>'
 })
